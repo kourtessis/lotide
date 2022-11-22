@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@kristak/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "small compostion of functions that be used to find various array/object information",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/kourtessis/lotide.git"
   },
-  "author": "",
+  "author": "kristakourtessis, raemekhatib, jordanjohnson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kourtessis/lotide/issues"
