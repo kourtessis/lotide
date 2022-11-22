@@ -31,7 +31,9 @@ const takeUntil = function(array, callback) {
 
 
 const results1 = takeUntil(data1, x => x < 0);
-console.log(results1);
-console.log('---');
-const results2 = takeUntil(data2, x => x === ',');
-console.log(results2);
+// console.log(results1);
+// console.log('---');
+// const results2 = takeUntil(data2, x => x === ',');
+// console.log(results2);
+
+module.exports = takeUntil;

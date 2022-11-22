@@ -21,7 +21,11 @@ const middle = require('../middle');
 
 describe("#middle", () => {
   it("returns Lighthouse for [Hello, Lighthouse, Labs]", () => {
-  assert.deepEqual(middle(["Hello", "Lighthouse", "Labs"]), ["Lighthouse"]);
+    assert.deepEqual(middle(["Hello", "Lighthouse", "Labs"]), ["Lighthouse"]);
   });
+
+  it("returns harry for [tom, dick, harry, james, susan]", () => {
+  assert.deepEqual(middle(["tom", "dick", "harry", "james", "susan"]), ["harry"]);
+});
 
 });

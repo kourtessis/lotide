@@ -1,10 +1,10 @@
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+// const assertEqual = function (actual, expected) {
+//   if (actual === expected) {
+//     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+//   } else {
+//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+//   }
+// };
 
 const countLetters = function(letters) {  // Letters = mississippi
   const results = {}; // empty container to push results into
@@ -21,4 +21,6 @@ const countLetters = function(letters) {  // Letters = mississippi
   return results; // return end result
 }
 
-assertEqual(countLetters("mississippi").s,4) //Checking if key s, has value 4
+// assertEqual(countLetters("mississippi").s,4) //Checking if key s, has value 4
+
+module.exports = countLetters;
